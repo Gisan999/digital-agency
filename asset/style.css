@@ -65,7 +65,7 @@
     display: flex;
     padding: 20px;
     align-items: center;
-
+    
 }
 .icon{
     width: 70px;
@@ -84,9 +84,59 @@
 }
 .service-description{
     width: 50%;
+    margin-top: 10px;
 }
 .first-two-box{
     display: flex;
     gap: 5px;
     margin-top: 5px;
+}
+.author{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ 
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid tomato;
+    padding: 20px;
+    
+
+}
+.left-side{
+    margin-left: 50px;
+    padding: 20px;
+}
+.ol{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero{
+    margin-top: 10px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 3px 20px 3px 20px;
+    margin-top: -70px;
+    align-items: center;
+}
+.appointment-desk{
+    margin-right: 2px;
 }
