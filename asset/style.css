@@ -140,3 +140,43 @@
 .appointment-desk{
     margin-right: 2px;
 }
+.blog-title{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+.fine{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(170, 218, 201);
+}
+.cards{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    
+}
+.card{
+    width: 220px;
+    height: 300px;
+   box-shadow: 4px 8px 4px gray;
+   border-radius: 0px 5px 0px 5px ;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 0px 5px 0px 5px ;
+}
+.card-title{
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+.blog-container{
+    width: 80%;
+    margin: auto;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
